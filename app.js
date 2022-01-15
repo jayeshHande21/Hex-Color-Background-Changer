@@ -13,12 +13,13 @@ function changeHex() {
     for (let i = 0; i < 6; i++) {
         const index = Math.floor(Math.random() * hexValues.length);
 
-        hex = hex + hexValues[index];}
-        // console.log(hex);
-        value.textContent = hex;
-        body.style.backgroundColor = hex;
+        hex = hex + hexValues[index];
+    }
+    // console.log(hex);
+    value.textContent = hex;
+    body.style.backgroundColor = hex;
 
-    
+
 }
 
 
