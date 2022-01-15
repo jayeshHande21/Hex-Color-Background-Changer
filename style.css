@@ -1,0 +1,19 @@
+body{
+    background-color: yellow;
+}
+h1{
+  text-align: center;
+  margin-top: 200px;
+}
+button{
+    margin-left: 50%;
+    color:gainsboro;
+    background-color: gray;
+    width: 65px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+
+}
+button:hover{
+    margin-top: 2px;
+}
